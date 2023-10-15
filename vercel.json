@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "framework": "nest",
+  "framework": "nextjs",
 
   "env": {
     "DB_HOST": "cluster0.jxc0jkc.mongodb.net",
