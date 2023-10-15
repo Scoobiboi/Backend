@@ -15,4 +15,28 @@ export class AppController {
     return articles;
   }
 
+  @Get('/title/articles')
+  async getArticlesByTitle() {
+    const articles = await getArticles('title');
+    return articles;
+  }
+
+  @Get('/year/articles')
+  async getArticlesByYear() {
+    const articles = await getArticles('year');
+    return articles;
+  }
+
+
+  @Get('/status/articles')
+  async getArticlesByStatus() {
+    const articles = await getArticles('status');
+    return articles;
+  }
+
+  @Get('/authors/articles')
+  async getArticlesByAuthor() {
+    const articles = await getArticles('authors');
+    return articles;
+  }
 }
