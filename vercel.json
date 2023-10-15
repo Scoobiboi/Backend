@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "framework": "nest",
+
   "env": {
     "DB_HOST": "cluster0.jxc0jkc.mongodb.net",
     "DB_USER": "mPtu7zJISmJANUUO",
