@@ -4,8 +4,8 @@
 
   "env": {
     "DB_HOST": "cluster0.jxc0jkc.mongodb.net",
-    "DB_USER": "mPtu7zJISmJANUUO",
-    "DB_PASSWORD": "database-password"
+    "DB_USER": "cise-admin",
+    "DB_PASSWORD": "mPtu7zJISmJANUUO"
   },
  
   "builds": [
