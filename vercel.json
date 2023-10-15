@@ -1,6 +1,10 @@
 {
   "version": 2,
-  "env": {"DB"              },
+  "env": {
+    "DB_HOST": "cluster0.jxc0jkc.mongodb.net",
+    "DB_USER": "mPtu7zJISmJANUUO",
+    "DB_PASSWORD": "database-password"
+  },
  
   "builds": [
     {
