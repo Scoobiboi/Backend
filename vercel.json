@@ -3,19 +3,18 @@
   "framework": "nextjs",
 
   "env": {
-    "DB_HOST": "@DB_HOST",
-    "DB_USER": "@DB_USER",
-    "DB_PASSWORD": "@DB_PASSWORD"
+    "DB_HOST": "cluster0.jxc0jkc.mongodb.net",
+    "DB_USER": "cise-admin",
+    "DB_PASSWORD": "mPtu7zJISmJANUUO"
   },
  
   "builds": [
     {
-      "src": "src/main.ts",
+      "src": "src/main.ts", 
       "use": "@vercel/node",
       "config": {
         "maxLambdaSize": "25mb",
         "cmd": "npm run build"
-        
       }
     }
   ],
