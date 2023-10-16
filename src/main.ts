@@ -10,6 +10,14 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   console.log(`Database connection status: ${dbStatus}`);
   console.log(`Database connection NAME: ${process.env.DB_USER}`);
+
+  app.enableCors({
+    origin: ['http://localhost:3000', 'https://vercel-nest-scoobiboi.vercel.app'],
+  });
+    // add a process env port 
+    await app.listen(process.env.PORT || 8080);
+
+
   await app.listen(3000);
 }
 bootstrap();

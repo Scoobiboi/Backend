@@ -27,7 +27,6 @@ export class AppController {
     return articles;
   }
 
-
   @Get('/status/articles')
   async getArticlesByStatus() {
     const articles = await getArticles('status');
